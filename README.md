@@ -31,9 +31,11 @@ Welcome to the **Quiz Game** – a fun and interactive web application where use
 
 ## 🛠️ Tech Stack
 
+# VS Code
+
 - index.html
-- 
-- JavaScript (Vanilla JS)
+- question.html
+- result.html
 
 ## 📂 Folder Structure
 
