@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Game - Home</title>
+</head>
+<body>
+    <h1>Welcome to the Quiz Game!</h1>
+    <form action="{{ url_for('start_quiz') }}" method="post">
+        <label for="category">Select Category:</label>
+        <select name="category" id="category">
+            <option value="All">All</option>
+            <option value="Geography">Geography</option>
+            <option value="Technology">Technology</option>
+            <option value="Literature">Literature</option>
+        </select>
+        <button type="submit">Start Quiz</button>
+    </form>
+</body>
+</html>

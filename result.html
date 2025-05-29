@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Result</title>
+</head>
+<body>
+    <h1>Quiz Completed!</h1>
+    <p>Your Score: {{ score }} out of {{ total }}</p>
+
+    <h2>🔁 Answer Review</h2>
+    <ul>
+        {% for q, user_answer in answers %}
+            <li>
+                <strong>Q:</strong> {{ q[1] }}<br>
+                <strong>Your Answer:</strong> {{ q[user_answer + 1] }}<br>
+                <strong>Correct Answer:</strong> {{ q[q[6] + 1] }}<br><br>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('index') }}">Play Again</a>
+</body>
+</html>

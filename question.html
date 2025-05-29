@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Question</title>
+    <script>
+        let timeLeft = 15;
+        let timer = setInterval(function () {
+            document.getElementById("timer").innerHTML = "⏳ Time Left: " + timeLeft + "s";
+            timeLeft--;
+            if (timeLeft < 0) {
+                clearInterval(timer);
+                document.getElementById("quiz-form").submit();
+            }
+        }, 1000);
+    </script>
+</head>
+<body>
+    <h2>Question {{ number }} of {{ total }}</h2>
+    <p id="timer">⏳ Time Left: 15s</p>
+    <p>✅ Score: {{ session.score }}</p>
+
+    <form id="quiz-form" method="post" action="{{ url_for('question') }}">
+        <p>{{ q[1] }}</p>
+        <input type="radio" name="answer" value="1" required> {{ q[2] }}<br>
+        <input type="radio" name="answer" value="2"> {{ q[3] }}<br>
+        <input type="radio" name="answer" value="3"> {{ q[4] }}<br>
+        <input type="radio" name="answer" value="4"> {{ q[5] }}<br><br>
+        <button type="submit">Next</button>
+    </form>
+</body>
+</html>
