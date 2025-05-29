@@ -41,8 +41,8 @@ Welcome to the **Quiz Game** – a fun and interactive web application where use
 
 quiz-game/
 ├── app.py
-    ├── index.html
-    ├── question.html
-    ├── result.html
+├── index.html
+├── question.html
+├── result.html
 
 
