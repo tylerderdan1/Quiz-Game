@@ -45,6 +45,17 @@ quiz-game/
 ├── question.html
 ├── result.html
 
+📢 How to Deploy on GitHub Pages
+
+ - Push your code to GitHub.
+
+ - Go to Settings > Pages in your repository.
+
+ - Choose the branch (e.g. main) and root folder (or /docs if you use that).
+
+ - Your app will be live at:
+  https://your-username.github.io/quiz-game/
+
 ## 🙌 Credits
 
 Built by Manigandan 
