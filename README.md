@@ -31,11 +31,18 @@ Welcome to the **Quiz Game** – a fun and interactive web application where use
 
 ## 🛠️ Tech Stack
 
- *VS Code
+ VS Code
 
-- index.html
-- question.html
-- result.html
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 
 ## 📂 Folder Structure
+
+quiz-game/
+├── app.py
+    ├── index.html
+    ├── question.html
+    ├── result.html
+
 
