@@ -45,7 +45,7 @@ quiz-game/
 ├── question.html
 ├── result.html
 
-📢 How to Deploy on GitHub Pages
+## 📢 How to Deploy on GitHub Pages
 
  - Push your code to GitHub.
 
