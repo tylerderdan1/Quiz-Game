@@ -45,4 +45,12 @@ quiz-game/
 ├── question.html
 ├── result.html
 
+## 🙌 Credits
+
+Built by Manigandan 
+
+## Output
+
+
+
 
