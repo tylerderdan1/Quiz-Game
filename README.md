@@ -52,6 +52,12 @@ Built by Manigandan
 
 ## Output
 
+![Image](https://github.com/user-attachments/assets/40a4ad87-4356-4a0f-b1ca-bd6302cdfde4)
 
+![Image](https://github.com/user-attachments/assets/ca574969-b738-4c02-b22d-db8b976847a1)
+
+![Image](https://github.com/user-attachments/assets/2038578a-19a6-4bd5-8e06-81fbc4e0d2d1)
+
+![Image](https://github.com/user-attachments/assets/cbe27110-1808-4b99-b75d-dae4491d66f6)
 
 
